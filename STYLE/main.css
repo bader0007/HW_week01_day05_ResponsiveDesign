@@ -117,8 +117,80 @@ main h3{
   text-align:justify;
 }
 
+@media (max-width:700px){
 
-                  /*  Start here  */
-/* --------- START THE CODE HERE ------- */
+  /*content-header part*/
 
+
+
+  .content-header{
+    position: relative;
+  }
+  .content-header h1 {
+    position: absolute;
+    font-size: 25px;
+    left: 10px;
+    top: 20px;
+  }
+  .content-header ul{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    width: 300px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-header ul li{
+    height: 35px;
+  }
+
+  /*introduction part*/
+
+
+
+
+  .introduction{
+    position: relative;
+  }
+  .introduction h1{
+    font-size: 25px;
+    line-height: 35px;
+    position: absolute;
+    left: 150px;
+    bottom: 15px;
+    top: 165px;
+    right: 300px;
+  }
+  .introduction h5{
+    position: absolute;
+    left: 30px;
+    top: 250px;
+    right: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+
+  }
+
+  /*parts of services*/
+
+
+
+
+  main h1{
+    font-size: 40px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .services-name h1 {
+    font-size: 20px;
+  }
+
+}
 
